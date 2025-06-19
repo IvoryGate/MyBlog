@@ -1,9 +1,13 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="home">
+    <type-writer />
+  </div>
 </template>
+
+<style>
+
+</style>
+<script setup lang="ts">
+
+import TypeWriter from '@/components/TypeWriter.vue'
+</script>
